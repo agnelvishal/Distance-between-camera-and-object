@@ -24,8 +24,8 @@ def getmp(image):
     cnts = sorted(cnts, key = cv2.contourArea, reverse = True)[:1]
     for c in cnts:
          # if the contour is not sufficiently large, ignore it
-        if cv2.contourArea(c) < 1000:
-            continue
+    '''if cv2.contourArea(c) < 10: #probably not needed.
+        continue'''
             # compute the rotated bounding box of the contour
     box = cv2.minAreaRect(c)
     box = cv2.cv.BoxPoints(box) if imutils.is_cv2() else cv2.boxPoints(box)
