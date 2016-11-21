@@ -1,8 +1,9 @@
 # Physical-distance-between-Objects
 Thr objects are assumed to be chess piece
 The two primary parts of the code are 
-Detecting the chess piece which has the most lines of code.
-Measuring the distance between chess piece.
+Detecting the chess piece which has the most lines of code and
+measuring the distance between chess piece.
+
 
 
 Detecting chess piece
@@ -17,6 +18,7 @@ The gaps in the background need to be filled. This is done by repeating dilation
 
 
 
+
 Measuring distance between Chess piece.
 
  In the variable ‘ff’ all pixels of the detected chess piece are stored.
@@ -24,6 +26,7 @@ Measuring distance between Chess piece.
  The distance is found by using Euclidian distance formula. 
                dist((x, y), (a, b)) = Squareroot((x - a)² + (y - b)²)
             Where x,y are x and y coordinates of centre of first chess piece. Similarly a,b are x and y coordinates of centre of second chess piece.
+
 
 
 
