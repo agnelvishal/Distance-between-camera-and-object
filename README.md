@@ -27,12 +27,13 @@ Measuring distance between Chess piece.
                dist((x, y), (a, b)) = Squareroot((x - a)² + (y - b)²)
             Where x,y are x and y coordinates of centre of first chess piece. Similarly a,b are x and y coordinates of centre of second chess piece.
 
-
+Distance betwen Camera and Object
+The distace or pixels between object in 2 images is inversely proportional to distace between camera and object. HEnce the constant pf proportionality is calculated and stored in text. T
 
 
 
 Executing the file
 
-In the first line of newCalibrate file , you will need to set the distance between chess pieces of two images. This is needed to calibrate the camera each time camera position is changed
+In the first line of Calibrate file , you will need to set the distance between chess pieces of two images. This is needed to calibrate the camera each time camera position is changed
 When you calibrate , new file called donotdelete.txt will be generated.
 Then run calculate file. The distance will be shown :)
