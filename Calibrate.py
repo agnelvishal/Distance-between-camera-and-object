@@ -30,7 +30,7 @@ ro=cv2.imread('b30.jpg')
 lp=getmp(lo)
 lr=getmp(ro)
 p=abs(lp-lr)
-dpp=d/p
+dpp=d*p
 with open("DoNotDelete.txt",'w') as f:
    s=str(dpp)
    f.write(s)
