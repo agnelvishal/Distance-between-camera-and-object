@@ -1,4 +1,4 @@
-# Physical-distance-between-Objects
+Distance-between-camera-and-objects
 Thr objects are assumed to be chess piece
 The two primary parts of the code are 
 Detecting the chess piece which has the most lines of code and
