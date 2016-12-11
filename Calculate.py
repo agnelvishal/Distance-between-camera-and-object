@@ -30,7 +30,7 @@ p=abs(lp-lr)
 with open("DoNotDelete.txt",'r') as g:
     dpp=g.read()
     dpp=float(dpp)
-    print dpp*p
+    print dpp/p
 
 
 
