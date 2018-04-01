@@ -1,4 +1,4 @@
-Distance-between-camera-and-objects
+# Distance-between-camera-and-objects
 Thr objects are assumed to be chess piece
 The two primary parts of the code are 
 Detecting the chess piece which has the most lines of code and
@@ -6,7 +6,7 @@ measuring the distance
 
 
 
-Detecting chess piece
+# Detecting chess piece
 
 “cv2.cvtColor(image, cv2.COLOR_BGR2HSV)” -Image converted to HSV color model 
 “Gra[:,:,2]” - Converted to black and white. The 2 signifies black and white.
@@ -19,7 +19,7 @@ The gaps in the background need to be filled. This is done by repeating dilation
 
 
 
-Measuring distance between Chess piece.
+# Measuring distance between Chess piece.
 
  In the variable ‘ff’ all pixels of the detected chess piece are stored.
  The average of all pixels of chess piece is found by using the mean function to find the centre of the chess piece
@@ -32,7 +32,7 @@ The distace or pixels between object in 2 images is inversely proportional to di
 
 
 
-Executing the file
+# Executing the file
 
 In the first line of Calibrate file , you will need to set the distance between chess pieces of two images. This is needed to calibrate the camera each time camera position is changed
 When you calibrate , new file called donotdelete.txt will be generated.
